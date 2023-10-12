@@ -1,6 +1,8 @@
-nums = [0]*4
-for i in range(4):
-    print("Введите", i+1, "-ое число:")
-
-    nums[i] = int(input())
-print('%.2f' % ((nums[0]+nums[1])/(nums[2]+nums[3])))
+print("Введите 4 числа")
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+sum1 = a + b
+sum2 = c + d
+print('%.2f' % (sum1/sum2))
